@@ -89,8 +89,8 @@ if DEBUG:
         'default': {
             'ENGINE': 'django.db.backends.mysql', 
             'NAME': 'DB_PATREON',
-            'USER': 'root',
-            'PASSWORD': '',
+            'USER': 'patronuser',
+            'PASSWORD': 'patronpa33word',
             'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
             'PORT': '3306',
         }
