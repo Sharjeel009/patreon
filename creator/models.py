@@ -18,6 +18,6 @@ class Tier(models.Model):
     title = models.CharField(max_length=200)
     price = models.IntegerField()
     desc = models.TextField()
-    user_sub = models.ManyToManyField(UserDetails, null=True, blank=True) #subscription user
+    user_sub = models.ManyToManyField(UserDetails,) #subscription user
     
     
